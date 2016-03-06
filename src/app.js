@@ -3,10 +3,10 @@ var ShoppingApp = angular.module("AgriBusinessApp",['ngRoute']);
 ShoppingApp.config(['$routeProvider', function($routeProvider){
   $routeProvider.
   when("/home/",{
-    templateUrl: 'src/views/home.html',
+    templateUrl: 'views/home.html',
   }).
   when("/about/",{
-    templateUrl: 'src/views/about.html',
+    templateUrl: 'views/about.html',
   }).
   otherwise({
     redirectTo: '/home/'

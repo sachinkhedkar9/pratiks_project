@@ -85,7 +85,7 @@ gulp.task("build", ["lessc", "build-scripts", "assets", "index"], function() {
 /* Local server -------------------------------------------------------------------------------- */
 gulp.task("server", function() {
   connect.server({
-    root: "dist",
+    root: "public",
     post: 8080
   });
 });
