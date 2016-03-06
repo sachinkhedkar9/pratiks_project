@@ -9,3 +9,4 @@ target
 /RUNNING_PID
 /bin/
 /node_modules/
+/nbproject  
