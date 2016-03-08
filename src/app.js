@@ -13,6 +13,7 @@ ShoppingApp.config(['$routeProvider', function($routeProvider){
   })
 }]);
 
-ShoppingApp.controller('masterController', ['$scope', '$rootScope', function($scope, $rootScope){
-
+ShoppingApp.controller('masterController', ['$scope', '$rootScope', '$location',function($scope, $rootScope, $location){
+    $rootScope.appBaserl = $location.absUrl().split('#')[0];
+    $scope.baseUrl = $rootScope.appBaserl;
 }]);

@@ -1,6 +1,60 @@
+body {
+  background: url(../images/bg2.jpg) top center no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #eee999;
+}
 .view-content {
   width: 90%;
   margin: 0 auto;
+}
+.nav-bar {
+  height: 60px;
+  background: #000;
+  color: #FFF;
+  position: relative;
+  padding-top: 2px;
+  background: -webkit-linear-gradient(grey, black);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(grey, black);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(grey, black);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(grey, black);
+  /* Standard syntax (must be last) */
+}
+.nav-bar a {
+  text-decoration: non  e;
+  color: #FFF;
+  cursor: pointer;
+}
+.nav-bar .logo {
+  padding-left: 5%;
+  font-size: 40px;
+}
+.nav-bar ul {
+  padding: 0 3% 0 0;
+  text-align: right;
+}
+.nav-bar ul li {
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+.nav-bar ul li:active,
+.nav-bar ul li:hover,
+.nav-bar ul li.active {
+  background-color: #265a88;
+  background: -webkit-linear-gradient(grey, #265a88);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(grey, #265a88);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(grey, #265a88);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(grey, #265a88);
+  /* Standard syntax (must be last) */
 }
 /* ----------------------------------------------------------------------------
 * Name          : Sachin Khedkar

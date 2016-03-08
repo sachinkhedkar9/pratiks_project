@@ -21,7 +21,8 @@ var Config = {
     "/css/",
     "/font/",
     "/images/",
-    "/views/"
+    "/views/",
+    "/favicon.ico"
   ]
 };
 
@@ -73,7 +74,7 @@ gulp.task('assets', function() {
 });
 
 gulp.task('index', function() {
-  return gulp.src([Config.srcdir + "/*.{html, js, css, png, jpeg, jpg, gif, json}"])
+  return gulp.src([Config.srcdir + "/*.{html, js, css, png, jpeg, jpg, gif, json, ico}"])
     .pipe(gulp.dest(Config.distdir));
 });
 

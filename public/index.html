@@ -23,20 +23,24 @@
 
   </head>
   <body ng-app="AgriBusinessApp">
-    <div class="nav-bar span12 block" ng-controller='masterController'>
-
-
+    <div class="" ng-controller='masterController'>
+  
+    <div class="nav-bar">
+      <header>
+        <nav>
+          <div class="logo inline-block forty-percent">
+            <a href="{{baseUrl}}#/home">Oak Promoters</a>
+          </div>
+          <ul class="inline-block sixty-percent">
+            <li class="active"><a href="{{baseUrl}}#/home">Home</a></li>
+            <li><a href="{{baseUrl}}#/about">About</a></li>
+            <li><a href="{{baseUrl}}#/contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+      
     <div class="view-content" ng-view></div>
-
-    <header>
-      <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
-        </ul>
-      </nav>
-    </header>
     <script type="text/javascript" src="js/app.js"></script>
 
     <!-- Use this if using static site -->
