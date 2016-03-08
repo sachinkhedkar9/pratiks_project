@@ -18,7 +18,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- <link rel="stylesheet" href="app.css"></link> -->
+    <link rel="stylesheet" href="css/app.css"></link> 
 
 
   </head>
@@ -26,8 +26,17 @@
     <div class="nav-bar span12 block" ng-controller='masterController'>
 
 
-    <div class="hundred-percent" ng-view></div>
+    <div class="view-content" ng-view></div>
 
+    <header>
+      <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+      </nav>
+    </header>
     <script type="text/javascript" src="js/app.js"></script>
 
     <!-- Use this if using static site -->
